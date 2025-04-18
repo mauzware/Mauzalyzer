@@ -1,6 +1,6 @@
 # 🧪 Mauzalyzer v1.0
 
-![Mauzalyzer Logo](https://github.com/mauzware/Mauzalyzer/blob/main/MAUZALYZER%20BACKGROUND.png)
+![Mauzalyzer Logo](https://github.com/mauzware/Mauzalyzer-assets/blob/main/MAUZALYZER%20BACKGROUND.png)
 
 **Ultimate Data Duplication & Similarity Analyzer — built for developers, analysts, and data engineers who need quick insights from messy, large, or structured data files.**
 
@@ -10,7 +10,7 @@
 
 ---
 
-## 📦 Features
+## 📦 <i>Features</i>
 
 - 🔁 Detects exact duplicates across rows and columns
 - 🔍 Finds similar values using fuzzy matching
@@ -24,20 +24,12 @@
 
 ---
 
-## 🛠️ Installation
+## 🛠️ <i>Installation</i>
 
-Make sure you have **Python 3.9+** installed (tested on 3.13+).
+Make sure you have **Python 3.9+** installed (tested on 3.13+). <br>
+You can use either **pip** or **pip3**, whichever works on your system depending on your Python version.
 
-**Windows**
-
-```bash
-git clone https://github.com/mauzware/Mauzalyzer.git
-cd Mauzalyzer
-pip install -r requirements.txt
-python mauzalyzer.py --help
-```
-
-**Linux Debian/Ubuntu**
+<i>**Windows**</i>
 
 ```bash
 git clone https://github.com/mauzware/Mauzalyzer.git
@@ -46,9 +38,19 @@ pip install -r requirements.txt
 python mauzalyzer.py --help
 ```
 
-**Kali Linux**
+<i>**Linux Debian/Ubuntu**</i>
+
+```bash
+git clone https://github.com/mauzware/Mauzalyzer.git
+cd Mauzalyzer
+pip install -r requirements.txt
+python mauzalyzer.py --help
+```
+
+<i>**Kali Linux**</i>
 
 In Kali all required modules are already pre-installed
+
 ```bash
 git clone https://github.com/mauzware/Mauzalyzer.git
 cd Mauzalyzer
@@ -57,7 +59,7 @@ python mauzalyzer.py --help
 
 ---
 
-## 🖥️ Usage
+## 🖥️ <i>Usage</i>
 
 ```bash
 python mauzalyzer.py [OPTIONS] source
@@ -65,7 +67,7 @@ python mauzalyzer.py [OPTIONS] source
 
 ---
 
-## 🔧 Basic Options
+## 🔧 <i>Basic Options</i>
 
 | Option             | Description                                                  |
 |--------------------|--------------------------------------------------------------|
@@ -77,7 +79,7 @@ python mauzalyzer.py [OPTIONS] source
 | `-o`, `--output`   | Custom output file name                                      |
 | `--output-format`  | Output format: `json`, `txt`, `xml`                          |
 
-## 🛡️ Utility Flags
+## 🛡️ <i>Utility Flags</i>
 
 | Flag               | Description                                                  |
 |--------------------|--------------------------------------------------------------|
@@ -89,23 +91,24 @@ python mauzalyzer.py [OPTIONS] source
 
 ---
 
-## 📸 Screenshots
+## 📸 <i>Screenshots</i>
 
-💡 **Help menu on Linux:**
+💡 <i>**Help menu on Linux:**</i>
 
-<img src="https://github.com/mauzware/Mauzalyzer/blob/main/kali.png" />
+![Linux Help](https://github.com/mauzware/Mauzalyzer-assets/blob/main/kali.png)
 
-💡 **Help menu on Windows:**
+💡 <i>**Help menu on Windows:**</i>
 
-<img src="https://github.com/mauzware/Mauzalyzer/blob/main/windows.png" />
+![Windows Help](https://github.com/mauzware/Mauzalyzer-assets/blob/main/windows.png)
 
-💡 **In action:**
+💡 <i>**Mauzalyzer in action:**</i>
 
-<img src="" width=50% /> <img src="" width=50% />
+![Linux in action](https://github.com/mauzware/Mauzalyzer-assets/blob/main/kali%20snippet.png)
+![Windows in action](https://github.com/mauzware/Mauzalyzer-assets/blob/main/action.png)
 
 ---
 
-## 📂 Output Example
+## 📂 <i>Output Example</i>
 
 ```json
 {
@@ -121,7 +124,7 @@ Reports are saved to the **data_report/** folder and include a timestamp + hash 
 
 ---
 
-## 🚧 Future Plans: Mauzalyzer v2.0 (coming soon...)
+## 🚧 <i>Future Plans: Mauzalyzer v2.0 (coming soon...)</i>
 
 Mauzalyzer Engineers are already cooking up new features for v2.0. Stay tuned! 👾
 
@@ -137,16 +140,16 @@ Mauzalyzer Engineers are already cooking up new features for v2.0. Stay tuned! �
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 <i>Author</i>
 
 **mauzware** <br>
 **GitHub: github.com/mauzware**
 
 ---
 
-**All kuddos go to my professor who taught me everything I know, I think she will be proud of me using this many emojis.** 😅
+<i>**All kuddos go to my professor who taught me everything I know, I think she will be proud of me using this many emojis.**</i> 😅
 <br>
-**To all my friends who supported me on this wonderful journey — I haven't forgotten you, folks. Big thanks and much love to all of you!** ❤️
+<i>**To all my friends who supported me on this wonderful journey — I haven't forgotten you, folks. Big thanks and much love to all of you!**</i> ❤️
 
 
 
