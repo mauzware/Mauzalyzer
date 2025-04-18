@@ -1,0 +1,7 @@
+pandas
+requests
+dicttoxml
+termcolor
+rapidfuzz
+openpyxl
+
