@@ -5,7 +5,7 @@
 **Ultimate Data Duplication & Similarity Analyzer — built for developers, analysts, and data engineers who need quick insights from messy, large, or structured data files.**
 
 > **Created by [mauzware](https://github.com/mauzware)**  
-> Works on Linux 🐧 and Windows 🪟  
+> Works on Linux 🐧 and Windows 🧩  
 > Fast, powerful, and customizable via CLI ⚙️
 
 ---
@@ -49,7 +49,7 @@ python mauzalyzer.py --help
 
 <i>**Kali Linux**</i>
 
-In Kali all required modules are already pre-installed
+In Kali, all required modules are already pre-installed. <br>
 
 ```bash
 git clone https://github.com/mauzware/Mauzalyzer.git
@@ -57,12 +57,29 @@ cd Mauzalyzer
 python mauzalyzer.py --help
 ```
 
+If you are missing some modules by any chance, you can install them with: <br>
+1) Create a virtual environment and use: **pip3 install -r requirements.txt** <br>
+2) Install them manually with apt: **sudo apt install python3-[module_name]**
+
 ---
 
 ## 🖥️ <i>Usage</i>
 
+You can use either **python** or **python3**, whichever works on your system depending on your Python version.
+
 ```bash
 python mauzalyzer.py [OPTIONS] source
+python3 mauzalyzer.py [OPTIONS] source
+```
+**Examples:**
+
+```bash
+python3 mauzalyzer.py Your_File.csv #Basic scan
+python mauzalyzer.py Your_File.xlsx #Basic scan
+python3 mauzalyzer.py Your_File.csv --detailed #Detailed scan
+python mauzalyzer.py --fast Your_File.xlsx #Fast scan
+python3 mauzalyzer.py Your_File.csv -o Report_Name --output-format=txt #Saving output in TXT format
+python mauzalyzer.py Your_File.xlsx -o Report_Name --output-format=xml #Saving output in XML format
 ```
 
 ---
@@ -121,6 +138,30 @@ python mauzalyzer.py [OPTIONS] source
 
 Reports are saved to the **data_report/** folder and include a timestamp + hash for uniqueness. <br>
 **data_report/** folder will be automatically created after first usage.
+
+---
+
+## ⚡ <i>Bonus: Optional Header Row Removal, details are below.</i>
+
+This code helps remove repeated or stray header rows inside messy CSVs
+(usually when a report was exported from Excel or multiple tables were merged).
+
+❗️ **When to use:**
+- You scanned a file and noticed weird duplicated values like "type" or "sale_date"
+- You know your file includes repeated headers (you may have seen them in Excel file when you opened it)
+
+📋 **Instructions:**
+1. Below this comment, you'll see a method called 'remove_headers(df)', edit the list 'known_headers' to include any words you want to treat as "header rows".
+2. In regards to editing 'known_headers', you can add more values or remove some, it's completely on you.
+3. Go to method 'scan_csv()' in the code, you'll see '#df = remove_headers(df)', just remove # and that's it, voila removed headers are implemented.
+
+Example:
+```bash
+def scan_csv(self, similarity_threshold=85):
+    try:
+        df = self.safe_read_csv(file_path)
+        #df = remove_headers(df) <-- Here, simply delete # and its done
+```
 
 ---
 
