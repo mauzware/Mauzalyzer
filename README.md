@@ -1,4 +1,4 @@
-# 🧪 Mauzalyzer v1.0
+# 🧪 Mauzalyzer
 
 ![Mauzalyzer Logo](https://github.com/mauzware/Mauzalyzer-assets/blob/main/MAUZALYZER%20BACKGROUND.png)
 
