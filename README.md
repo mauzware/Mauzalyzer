@@ -183,7 +183,7 @@ Mauzalyzer Engineers are already cooking up new features for v2.0. Stay tuned! �
 
 ## 👨‍💻 <i>Author</i>
 
-[<img src="https://github.com/mauzware/mauzware/blob/main/LOGO%20CUT.png" width="120px" height="40px"/>](https://github.com/mauzware) 
+[<img src="https://github.com/mauzware/mauzware/blob/main/LOGO%20NEW.png" width="120px" height="40px"/>](https://github.com/mauzware) 
 
 ---
 
