@@ -187,6 +187,12 @@ Mauzalyzer Engineers are already cooking up new features for v2.0. Stay tuned! �
 
 ---
 
+## 📜 <i>**License**</i>
+
+This project is open-source and distributed under the terms of the MIT License. You are free to use, modify, and distribute it with proper attribution.
+
+---
+
 <i>**All kuddos go to my professor who taught me everything I know, I think she will be proud of me using this many emojis.**</i> 😅
 <br>
 <i>**To all my friends who supported me on this wonderful journey — I haven't forgotten you, folks. Big thanks and much love to all of you!**</i> ❤️
