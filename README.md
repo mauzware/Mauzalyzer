@@ -51,7 +51,7 @@ python mauzalyzer.py --help
 
 In Kali, all required modules are already pre-installed. <br>
 
-```bash
+```
 git clone https://github.com/mauzware/Mauzalyzer.git
 cd Mauzalyzer
 python mauzalyzer.py --help
@@ -60,6 +60,20 @@ python mauzalyzer.py --help
 If you are missing some modules by any chance, you can install them with: <br>
 1) Create a virtual environment and use: **pip3 install -r requirements.txt** <br>
 2) Install them manually with apt: **sudo apt install python3-[module_name]**
+
+<i>**Virtual Environment Setup**</i>
+
+```
+sudo apt update
+sudo apt install python3-venv -y
+
+git clone https://github.com/mauzware/Mauzalyzer.git
+cd Mauzalyzer
+python3 -m venv Mauzalyzer-env
+source Mauzalyzer-env/bin/activate
+pip install -r requirements.txt
+deactivate
+```
 
 ---
 
